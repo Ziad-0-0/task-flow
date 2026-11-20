@@ -1,0 +1,35 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Database backups and local data
+database_backup/
+*.backup
+*.dump
+
+# IDE settings
+.idea/
+.vscode/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Local test data
+tasks.json
+
+# Temporary files
+*.tmp
